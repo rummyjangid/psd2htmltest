@@ -43,22 +43,16 @@ ul li a{
     display: none;
 }
 
-
 select {
     background: black;
     border: 0;
     color: white;
     font-size: 1em;
-   
-    -moz-appearance: none;
 }
 i.fa.fa-search {
     font-size: 1.2em;
     color: white;
 }
-
-
-
 
 #wrapper{
     position: relative;
