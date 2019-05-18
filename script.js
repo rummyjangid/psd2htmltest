@@ -1,0 +1,86 @@
+
+  $(document).ready(function(){
+    $('.menu').click(function(){
+      $('ul').toggleClass('active');
+    })
+  })
+   
+   
+  $('#slider-aria').owlCarousel({
+    loop:true,
+   autoplay:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+
+$('#card-aria').owlCarousel({
+    loop:true,
+   autoplay:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+
+$('#card-ariaSec').owlCarousel({
+    loop:true,
+   autoplay:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+
+$('#card-ariaThird').owlCarousel({
+    loop:true,
+   autoplay:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+$('#card-Fourth').owlCarousel({
+    loop:true,
+   autoplay:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:5
+        }
+    }
+})

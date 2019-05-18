@@ -1,0 +1,618 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 100%;
+    background: #000;
+    border-bottom: 1px solid lightgrey;
+}
+nav h1 {
+    position: absolute;
+    margin-left: 40px;
+    color: white;
+    font-family: cursive;
+    margin-top: 9px;
+}
+ul{
+    width: 95%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: right;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 1em;
+}
+.toggle{
+    width: 100%;
+    padding: 10px 20px;
+    text-align: right;
+    box-sizing: border-box;
+    color: white;
+    font-size: 30px;
+    display: none;
+}
+
+
+select {
+    background: black;
+    border: 0;
+    color: white;
+    font-size: 1em;
+   
+    -moz-appearance: none;
+}
+i.fa.fa-search {
+    font-size: 1.2em;
+    color: white;
+}
+
+
+
+
+#wrapper{
+    position: relative;
+    height: 400px;
+}
+#slider-aria{
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+    position: absolute;
+    top: 90%;
+    left: 48%;
+}
+#slider-aria .item{
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.slider-text {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    text-align: right;
+}
+.slider-text h1 {
+    font-family: sans-serif;
+    color: lightgray;
+    font-weight: 200;
+    font-size: 2.5em;
+}
+.slider-text h1 span {
+    font-weight: 900;
+}
+.slider-text button {
+    padding: 9px;
+    width: 100px;
+    border: 0;
+    background: darkslategrey;
+    color: white;
+    font-weight: 800;
+}
+#wrapper #nav-aria{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    text-align: center;
+}
+
+/* slider end */
+
+section.imageBox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin-left: 35px;
+    
+}
+
+.imageBox img {
+    border-radius: 5% 0 0 5%;
+}
+
+.Imgbox {
+    flex: 50%;
+}
+.content {
+    flex: 50%;
+    background: lightgray;
+    height: 325px;
+    border-radius: 0 5% 5% 0;
+}
+img{
+    width: 100%;
+}
+
+.content h2 {
+    font-size: 70px;
+    font-family: sans-serif;
+}
+.content h1 {
+    font-size: 80px;
+    font-family: sans-serif;
+}
+
+.content .text-aria {
+    color: darkgray;
+    margin: 41px 0 0px 39px;
+}
+.content p {
+    font-family: sans-serif;
+    width: 80%;
+    font-size: 20px;
+}
+.checked{
+    color: orange;
+}
+#rupeeC{
+    text-decoration: line-through;
+}
+#rupee{
+    color: red;
+    font-weight: 600;
+}
+#compare{
+    font-family: monospace;
+    font-size: 17px;
+    margin: 10px;
+}
+button.cartbtn {
+    padding: 6px;
+    margin: 5px;
+    border: 0;
+    background: black;
+    color: white;
+    width: 100px;
+}
+.card-wrapper .item {
+    margin: 20px;
+    background: lightgray;
+    border-radius: 4% 4% 4% 4%;
+}
+.card-wrapper .btn {
+    text-align: center;
+}
+
+input[type="checkbox"] {
+    margin-left: 10%;
+    margin-top: 4%;
+}
+.texts {
+    width: 80%;
+    margin-left: 5%;
+    font-size: 1.03em;
+}
+.hrbtn {
+    width: 97%;
+}
+button.viewbtn {
+    float: right;
+    margin-top: -13px;
+    padding: 7px;
+    border: 0;
+    width: 100px;
+    background: red;
+    line-height: 1;
+    color: white;
+    font-weight: 600;
+}
+.imageText {
+    position: relative;
+    width: 100%;
+}
+
+.text-img h1 {
+    position: absolute;
+    top: 42%;
+    left: 6%;
+    font-family: sans-serif;
+    color: white;
+    font-size: 3.2em;
+    font-weight: 200;
+}
+
+.text-img h2 {
+    position: absolute;
+    top: 40%;
+    right: 6%;
+    font-family: sans-serif;
+    color: white;
+    font-size: 3.2em;
+    font-weight: 800;
+}
+
+.text-img p {
+    position: absolute;
+    top: 52%;
+    right: 6%;
+    color: white;
+    font-size: 1.5em;
+    font-family: cursive;
+}
+.imageText a {
+    position: absolute;
+    top: 93%;
+    right: 38%;
+    color: white;
+    font-family: monospace;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+/* end */
+
+.img-text {
+    display: flex;
+    width: 95%;
+    margin-left: 37px;
+}
+
+.img-text .Imgbox {
+    flex: 70%;
+}
+.img-text .text-aria {
+    flex: 30%;
+}
+.Imgbox img {
+    border-radius: 5% 0 0 5%;
+}
+.sect img {
+    border-radius: 0 5% 5% 0;
+}
+/* end */
+section.imageBox2 {
+    display: flex;
+    width: 95%;
+    margin-left: 37px;
+}
+
+
+    .content2 {
+        flex: 35%;
+        background: lightgray;
+        height: 369px;
+        border-radius: 0 5% 5% 0;
+   
+}
+
+.Imgbox2 {
+    flex: 65%;
+}
+
+.content2 .text-aria2 {
+    color: darkgray;
+    margin: 41px 0 0px 39px;
+}
+.content2 h2 {
+    font-size: 75px;
+    font-family: sans-serif;
+}
+.content2 h1 {
+    font-size: 80px;
+    font-family: sans-serif;
+}
+
+.content2 p {
+    font-family: sans-serif;
+    width: 80%;
+    font-size: 22px;
+}
+
+/* end */
+.imagetext2{
+    position: relative;
+    width: 100%;
+   
+}
+.imagetext2 p {
+    position: absolute;
+    top: 54%;
+    left: 6%;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    color: white;
+}
+.imagetext2 h1 {
+    position: absolute;
+    top: 42%;
+    right: 6%;
+    font-family: sans-serif;
+    color: white;
+    font-size: 3.2em;
+    font-weight: 800;
+}
+
+.imagetext2 h2 {
+    position: absolute;
+    top: 40%;
+    left: 6%;
+    font-family: sans-serif;
+    color: white;
+    font-size: 3.2em;
+    font-weight: 800;
+}
+
+.imagetext2 p {
+    position: absolute;
+    top: 58%;
+    left: 6%;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    color: white;
+}
+button.btn4 {
+    position: absolute;
+    top: 75%;
+    left: 6%;
+    padding: 6px;
+    width: 100px;
+    border: 0;
+    background: red;
+    color: white;
+    font-weight: 600;
+}
+ 
+
+/* end<<<<<< */
+
+.services{
+    display: flex;
+    width: 100%;
+    background: lightgrey;
+    color: gray;
+   
+}
+.service1{
+    flex: 15%;
+    margin: 45px;
+}
+.service2{
+    flex: 15%;
+    margin: 45px;
+
+}
+.service3{
+    flex: 15%;
+    margin: 45px;
+}
+.service4{
+    flex: 15%;
+    margin: 45px;
+}
+.service5{
+    flex: 40%;
+    margin: 45px;
+}
+
+.services h1 {
+    font-family: sans-serif;
+    font-size: 1.4em;
+}
+.services p {
+    font-family: sans-serif;
+    padding: 3px;
+}
+
+input[type="email"] {
+    padding: 6px;
+    background: lightgrey;
+    border: 1px solid grey;
+    color: grey;
+}
+button.submit {
+    padding: 7px;
+    background: white;
+    border: 0;
+    width: 100px;
+    margin-left: -3px;
+    margin-top: 34px;
+}
+footer {
+    text-align: center;
+}
+
+footer span {
+    padding: 1em;
+    color: grey;
+    font-family: sans-serif;
+}
+footer p {
+    font-family: sans-serif;
+    color: grey;
+    margin-top: 36px;
+}
+
+.social {
+    width: 200px;
+    position: relative;
+    top: -24px;
+    left: 40%;
+}
+.img-text .content {
+    height: 378px;
+    border-radius: 5% 0 0 5%;
+}
+
+.sect .content {
+    border-radius: 5% 0 0 5%;
+    height: 340px;
+}
+
+.imageBox2 img {
+    border-radius: 5% 0 0 5%;
+}
+
+.img-text img {
+    border-radius: 0 5% 5% 0;
+}
+
+
+
+
+@media (max-width:960px){
+
+    .toggle{
+        display: block;
+    }
+    ul{
+        width: 100%;
+        display: none;
+    }
+    ul li{
+        display: block;
+        text-align: center;
+    }
+    .active{
+        display: block;
+    }
+
+    .slider-text { 
+        top: 35%;
+        left: 10%;
+        text-align: right;
+        font-size: 15px;
+    }
+
+    section.imageBox {
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin-left: 18px;
+        
+    }
+    .imageText .text-img {
+        font-size: 0.6em;
+    }
+    .imageText a {
+        position: absolute;
+        top: 88%;
+        right: 28%;
+        
+        font-size: 1.3em;
+    }
+    section.imageBox2 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin-left: 18px;
+        
+    }
+
+    .img-text {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 25px;
+    }
+    .text-aria3{
+        font-size: 0.6em;
+     }
+
+     .imagetext2 {
+        position: relative;
+        width: 100%;
+    }
+    button.btn4 {
+        position: absolute;
+        top: 75%;
+        left: 6%;
+        padding: 6px;
+        width: 100px;
+        border: 0;
+        background: red;
+        color: white;
+        font-weight: 600;
+    }
+
+    .services{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+       
+    }
+    .service1{
+        flex: 50%;
+    }
+    .service2{
+        flex: 50%;
+    }
+    .service3{
+        flex: 50%;
+    }
+    .service4{
+        flex: 50%;
+    }
+    .service5{
+        flex: 100%;
+    }
+    footer span {
+        padding: 1em;
+        color: grey;
+        font-family: sans-serif;
+        width: 50%;
+    }
+    .social {
+        width: 200px;
+        position: relative;
+        top: -24px;
+        left: 33%;
+    }
+    .owl-theme .owl-nav.disabled+.owl-dots {
+        position: absolute;
+        top: 90%;
+        left: 48%;
+    }
+    .imageBox img {
+        border-radius: 5% 5% 5% 5%;
+    }
+    .content {
+        
+        border-radius: 5% 5% 5% 5%;
+    }
+    .Imgbox img {
+        border-radius: 5% 5% 5% 5%;
+    }
+    .sect img {
+        border-radius: 5% 5% 5% 5%;
+    }
+    .sect .content {
+        border-radius: 5% 5% 5% 5%;
+    }
+    .imageBox2 img {
+        border-radius: 5% 5% 5% 5%;
+    }
+    .content2 {
+        flex: 35%;
+        background: lightgray;
+        height: 369px;
+        border-radius: 5% 5% 5% 5%;
+    }
+    .img-text .content {
+        height: 378px;
+        border-radius: 5% 5% 5% 5%;
+    }
+    nav h1 {
+        position: absolute;
+        margin-left: 200px;
+        color: white;
+        font-family: cursive;
+        margin-top: 9px;
+    }
+}
